@@ -33,7 +33,7 @@ function validateAge(){
     if(x < 100 && x>10){
         alert("The entered age is valid");
     } else {
-        alert("Please Enter a valid age! ");
+        alert("Please Enter an age 10! ");
     }
 }
 
