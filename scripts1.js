@@ -20,7 +20,7 @@ function validateMail() {
 function validatePhone(){
     var val = document.querySelector(".number-input");
     var x = val.value;
-    if(x.length == 10){
+    if(x.length < 10){
         alert("Please Enter a valid number!");
     }
 }
@@ -33,7 +33,7 @@ function validateAge(){
     if(x < 100 && x>10){
         alert("The entered age is valid");
     } else {
-        alert("Please Enter an age 10! ");
+        alert("Please Enter a Valid age! ");
     }
 }
 
