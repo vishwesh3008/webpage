@@ -20,7 +20,7 @@ function validateMail() {
 function validatePhone(){
     var val = document.querySelector(".number-input");
     var x = val.value;
-    if(x.length == 10){
+    if(x.length < 10){
         alert("Please Enter a valid number!");
     }
 }
